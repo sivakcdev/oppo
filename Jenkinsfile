@@ -7,7 +7,7 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
-        stage('scp') {
+        stage('Testing') {
             steps {
                 sh 'Testing..'
             }
